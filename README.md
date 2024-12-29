@@ -11,7 +11,7 @@ Contributors: [Jiazhao Zhang](https://jzhzhang.github.io/), Kunyu Wang, [Rongtao
 
 
 
-https://github.com/user-attachments/assets/beb74d19-10f1-4a99-bb15-693731f2c2af
+https://github.com/user-attachments/assets/eb545ef0-516c-4b6a-92a8-225f839843cc
 
 
 
