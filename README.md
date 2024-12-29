@@ -127,7 +127,7 @@ If you find this work useful for your research, please consider citing:
 ```
 
 ## Acknowledgments
-Our code is based on [LLaMMA-VID](https://github.com/dvlab-research/LLaMA-VID) and [VLN-CE](https://github.com/jacobkrantz/VLN-CE). 
+Our code is based on [LLaMA-VID](https://github.com/dvlab-research/LLaMA-VID) and [VLN-CE](https://github.com/jacobkrantz/VLN-CE). 
 
 This is an open-source version of NaVid, some functions have been rewritten to avoid certain license. 
 
