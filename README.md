@@ -67,7 +67,7 @@ DATASET:
 First download the pretriend weights for vision encoder [EVA-ViT-G](https://github.com/dvlab-research/LLaMA-VID/tree/main). Then, download the [finetuned NaVid model](https://huggingface.co/Jzzhang/NaVid/tree/main). The model has been trained on extensive samples from the `training splits` of the VLN-CE R2R and RxR datasets, following the training strategy of [Uni-NaVid](https://arxiv.org/pdf/2412.06224).
 
 
-| Evaliation Benchmark |  TL  |  NE  |  OS  |  SR  |  SPL |
+| Evaluation Benchmark |  TL  |  NE  |  OS  |  SR  |  SPL |
 |----------------------|:----:|:----:|:----:|:----:|:----:|
 | VLN-CE R2R Val.      | 10.7 | 5.65 | 49.2 | 41.9 | 36.5 |
 | [VLN-CE R2R Test](https://eval.ai/web/challenges/challenge-page/719/leaderboard/1966)      | 11.3 | 5.39 |  52  |  45  |  39  |
