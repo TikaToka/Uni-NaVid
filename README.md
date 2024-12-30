@@ -33,7 +33,10 @@ conda install -c aihabitat -c conda-forge habitat-sim=0.1.7 headless
 Next, install [Haibtat-Lab 0.1.7](https://github.com/facebookresearch/habitat-lab/tree/v0.1.7):
 ```
 mkdir navid_ws | cd navid_ws
-git clone --branch v0.1.7 git@github.com:facebookresearch/habitat-lab.git
+git clone --branch v0.1.7 git@github.com:facebookresearch/habitat-lab.git 
+or
+git clone --branch v0.1.7 https://github.com/facebookresearch/habitat-lab.git
+
 cd habitat-lab
 # installs both habitat and habitat_baselines
 python -m pip install -r requirements.txt
@@ -45,8 +48,11 @@ Finally, install NaVid:
 ```
 cd ..
 git clone git@github.com:jzhzhang/NaVid-VLN-CE.git
+or 
+git clone https://github.com/jzhzhang/NaVid-VLN-CE.git
+
 cd NaVid-VLN-CE
-pip install -r requrelments.txt
+pip install -r requirements.txt
 ```
 
 ### 2. Vision-and-Language Data
