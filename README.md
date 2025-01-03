@@ -57,7 +57,7 @@ pip install -r requirements.txt
 
 ### 2. Vision-and-Language Data
 
-Follow the instructions in the [VLN-CE Data Section](https://github.com/jacobkrantz/VLN-CE?tab=readme-ov-file#data) to set up the scene dataset and episodes dataset. After completing the data preparation, update the data location in [R2R config file](VLN_CE/habitat_extensions/config/vlnce_task_navid_r2r.yaml) and [RxR config file](VLN_CE/habitat_extensions/config/vlnce_task_navid_rxr.yaml). An example configuration is shown below, please modify the task files to align your data configuration:
+Follow the instructions in the [VLN-CE Data Section](https://github.com/jacobkrantz/VLN-CE?tab=readme-ov-file#data) to set up the scene dataset and episodes dataset. (If the RxR episodes cannot be accessed, you can download them [here](https://1drv.ms/u/c/aa19f644cf9d8afb/ETQ8Co-hGLFMjwd5HckKsvABjWvZ3cbPsWwdzbhmQDoL1g?e=WtO8Lm).) After completing the data preparation, update the data location in [R2R config file](VLN_CE/habitat_extensions/config/vlnce_task_navid_r2r.yaml) and [RxR config file](VLN_CE/habitat_extensions/config/vlnce_task_navid_rxr.yaml). An example configuration is shown below, please modify the task files to align your data configuration:
 ```
 NDTW:
   GT_PATH: data/datasets/R2R_VLNCE_v1-3_preprocessed/{split}/{split}_gt.json.gz 
